@@ -3,6 +3,7 @@
     color: red;
 } */
 
-p + p + p {
+p ~ p
+{
     color: yellow;
 }
