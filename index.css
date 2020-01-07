@@ -3,7 +3,7 @@
     color: red;
 } */
 
-p ~ p
+div div p
 {
     color: yellow;
 }
