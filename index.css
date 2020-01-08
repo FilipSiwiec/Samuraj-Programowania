@@ -1,9 +1,9 @@
-/* div + div{
+html{
     font-family: arial;
-    color: red;
-} */
+    font-size: 20px;
+    background-color: black;
+}
 
-div * p
-{
-    color: yellow;
+.color1{
+    color: red;
 }
