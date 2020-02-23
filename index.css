@@ -1,20 +1,41 @@
-a{
-    text-decoration: none;
-    display: inline-block;
-    background-color: black;
-    font-size: 24px;
-    color: orange;
-    font-family: arial;
-    text-transform: uppercase;
-    box-sizing: border-box;
-    width: 260px;
-    text-align: center;
-    border: 2px solid orange;
-    padding: 20px 15px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-a:hover{
-    background: #333;
-    color: white;
-    border-color: black;
+div.wrapper{
+    max-width: 800px;
+    margin: 0 auto 0;
+}
+
+nav{
+    background-color: #ddd;
+    padding: 10px 0;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: arial;
+    text-transform: uppercase;
+    color: brown;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 2px solid brown;
+    margin: 10px 15px;
+}
+
+header{
+    background-color:cadetblue ;
+    height: 300px;
+}
+
+main{
+    height: 50vh;
+    background-color: burlywood;
+}
+
+footer{
+    min-height: 100px;
+    background-color: darkcyan;
 }
