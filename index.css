@@ -1,41 +1,48 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-div.wrapper{
-    max-width: 800px;
-    margin: 0 auto 0;
+html{
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+header{
+    background-image: url(./auto2.jpg) ;
+    height: 40vh;
+    background-size: cover;
+}
+
+header h1{
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    line-height: 40vh;
+    background-color: rgba(0, 0, 0, 50%);
 }
 
 nav{
-    background-color: #ddd;
-    padding: 10px 0;
+    font-size: 24px;
+    text-align: right;
+    height: 10vh;
 }
 
 nav a{
     text-decoration: none;
-    font-family: arial;
-    text-transform: uppercase;
-    color: brown;
-    display: inline-block;
-    padding: 10px 25px;
-    font-size: 20px;
-    border: 2px solid brown;
-    margin: 10px 15px;
+    line-height: 10vh;
+    padding: 8px 41px;
+    color: black;
 }
 
-header{
-    background-color:cadetblue ;
-    height: 300px;
+nav a:hover{
+    border-bottom: 2px solid black;
 }
 
-main{
-    height: 50vh;
-    background-color: burlywood;
-}
-
-footer{
-    min-height: 100px;
-    background-color: darkcyan;
+.last:hover{
+    border: 2px solid black;
 }
