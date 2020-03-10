@@ -1,156 +1,59 @@
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-header div { 
-    margin: 3%;
-    width: 19%;
-    height: 200px;
-    background-color: royalblue;
+nav ul li{
     float: left;
+    list-style: none;
+    
 }
 
-.clearfix::after {
+.clearfix::after{
     content: "";
     display: block;
     clear: both;
 }
 
-header div:nth-child(1){
-    background-color: greenyellow;
-}
-
-header div:nth-child(2){
-    background-color: firebrick;
-}
-
-header div:nth-child(3){
-    background-color: deepskyblue;
-}
-
-header div:nth-child(4){
-    background-color: coral;
-}
-
-header div:nth-child(1):hover{
-    background-color: cadetblue;
-}
-
-header div:nth-child(2):hover{
-    background-color: green;
-}
-
-header div:nth-child(3):hover{
-    background-color: greenyellow;
-}
-
-header div:nth-child(4):hover{
-    background-color: cadetblue;
-}
-
 nav{
-    background-color: black;
-    padding: 10px 0 10px 50px;
-    margin: 20px 0;
+    background-color: #343A40;
+    padding-left: 5%;
+
 }
 
-nav ul{
-    list-style: none;
-}
-
-nav ul li {
-    float: left;
-    width: 25%;
-    margin: 0 10px;
-}
-
-nav ul li a:hover{
-    background-color: grey;
-    color: yellow;
-    border-color: yellow;
+.clearfix{
+    max-width: 1280px;
+    text-align: center;
 }
 
 nav ul li a{
-    padding: 10px 30px;
-    text-align: center;
-    border: 2px solid white;
-    display: block;
-    font-size: 26px;
-    color: white;
-    text-transform: uppercase;
+    color: #bbb;
     text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    line-height: 70px;
+    padding: 0 30px;
+    border-right: 2px solid black;
 }
 
-main{
-    float: left;
-    width: 65%;
-    padding: 0 20px 0 20px;
-}
-
-aside{
-    float: left;
-    width: 35%;
-}
-
-footer{
-    background-color: #444;
-    text-align: center;
-    padding: 20px 0;
+nav ul li a:hover{
     color: white;
-    margin-top: 40px;
+
 }
 
-article img{
-    width: 200px;
-    float: left;
-    margin: 20px 20px 20px 0;
+nav ul li:last-child{
+    border-right: none;
 }
 
-article p{
-    margin-top: 20px;
+nav ul li i {
+    padding-right: 10px;
+    font-size: 24px;
 }
 
-div.blog {
-    margin-top: 40px;
+p{
+    margin: 40px;
+    font-family: 'Roboto', sans-serif;
 }
-
-article h1{
-    text-transform: uppercase;
-}
-
-section.contact{
-    background-color: #ddd;
-    padding: 15px;
-}
-
-section.contact ul{
-    list-style: none;
-}
-
-section.contact p{
-    margin-bottom: 24px;
-    font-weight: bold;
-}
-
-section.contact li{
-    margin: 10px 0;
-    color: 3333;
-}
-
-section.contact li i {
-    margin-right: 20px;
-}
-
-section.news{
-    background-color: #ddd;
-    height: 300px;
-    margin-top: 20px;
-    padding: 15px;
-}
-
