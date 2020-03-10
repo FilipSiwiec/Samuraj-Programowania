@@ -87,3 +87,42 @@ nav ul li a{
     text-decoration: none;
 }
 
+main{
+    float: left;
+    width: 65%;
+    padding: 40px 20px 0 20px;
+}
+
+aside{
+    background-color: darkseagreen;
+    float: left;
+    width: 35%;
+    height: 200px;
+}
+
+footer{
+    background-color: #444;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    margin-top: 40px;
+}
+
+article img{
+    width: 200px;
+    float: left;
+    margin: 20px 20px 20px 0;
+}
+
+article p{
+    margin-top: 20px;
+}
+
+div.blog {
+    margin-top: 40px;
+}
+
+article h1{
+    text-transform: uppercase;
+}
+
