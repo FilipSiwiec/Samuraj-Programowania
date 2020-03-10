@@ -90,14 +90,12 @@ nav ul li a{
 main{
     float: left;
     width: 65%;
-    padding: 40px 20px 0 20px;
+    padding: 0 20px 0 20px;
 }
 
 aside{
-    background-color: darkseagreen;
     float: left;
     width: 35%;
-    height: 200px;
 }
 
 footer{
@@ -124,5 +122,35 @@ div.blog {
 
 article h1{
     text-transform: uppercase;
+}
+
+section.contact{
+    background-color: #ddd;
+    padding: 15px;
+}
+
+section.contact ul{
+    list-style: none;
+}
+
+section.contact p{
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+section.contact li{
+    margin: 10px 0;
+    color: 3333;
+}
+
+section.contact li i {
+    margin-right: 20px;
+}
+
+section.news{
+    background-color: #ddd;
+    height: 300px;
+    margin-top: 20px;
+    padding: 15px;
 }
 
