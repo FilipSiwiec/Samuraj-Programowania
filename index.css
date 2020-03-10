@@ -9,8 +9,8 @@ html {
 }
 
 header div { 
-    border: 30px solid white;
-    width: 25%;
+    margin: 3%;
+    width: 19%;
     height: 200px;
     background-color: royalblue;
     float: left;
@@ -56,5 +56,34 @@ header div:nth-child(4):hover{
 
 nav{
     background-color: black;
-    height: 50px;
+    padding: 10px 0 10px 50px;
+    margin: 20px 0;
 }
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+    margin: 0 10px;
+}
+
+nav ul li a:hover{
+    background-color: grey;
+    color: yellow;
+    border-color: yellow;
+}
+
+nav ul li a{
+    padding: 10px 30px;
+    text-align: center;
+    border: 2px solid white;
+    display: block;
+    font-size: 26px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
