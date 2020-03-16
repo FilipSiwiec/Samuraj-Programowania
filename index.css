@@ -1,71 +1,108 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  font-size: 40px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4{
+  display: none;
+}
+
+.item5{
+  display: block;
+}
+
+@media( max-width: 359px ){
+  body{
+    background-color: red;
   }
-  
-  /* do 359px */
-  
-  p {
-    line-height: 100vh;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-family: arial;
-    padding: 0 5%;
+
+  .item1{
+    display: block;
   }
-  
-  /* od 360px */
-  
-  @media (min-width: 360px) {
-    p {
-      font-size: 24px;
-      color: red;
-    }
+
+  .item2,
+  .item3,
+  .item4,
+  .item5{
+    display: none;
   }
-  
-  @media (min-width: 400px) {
-    p {
-      font-size: 26px;
-      color: blue;
-    }
+}
+
+@media( max-width: 639px ) and ( min-width: 360px){
+  body{
+    background-color: green;
   }
-  
-  @media (min-width: 600px) {
-    p {
-      font-size: 30px;
-      color: green;
-    }
+
+  .item2{
+    display: block;
   }
-  
-  @media (min-width: 1024px) {
-    p {
-      font-size: 50px;
-      color: green;
-    }
+
+  .item1,
+  .item3,
+  .item4,
+  .item5{
+    display: none;
   }
-  
-  @media (min-width: 1440px) {
-    p {
-      font-size: 80px;
-      color: green;
-    }
+}
+
+@media( max-width: 1023px ) and ( min-width: 640px){
+  body{
+    background-color: blue;
   }
-  
-  @media (orientation: portrait) {
-    body {
-      background-color: aqua;
-    }
+
+  .item3{
+    display: block;
   }
-  
-  @media (orientation: landscape) {
-    body {
-      background-color: darkcyan;
-    }
+
+  .item1,
+  .item2,
+  .item4,
+  .item5{
+    display: none;
   }
-  
-  @media (orientation: landscape) and (min-width: 640px) {
-    body {
-      background-color: orangered;
-    }
+}
+
+@media( max-width: 1400px ) and ( min-width: 1024px){
+  body{
+    background-color: grey;
   }
-  
+
+  .item4{
+    display: block;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item5{
+    display: none;
+  }
+}
+
+@media( min-width: 1401px){
+  body{
+    background-color: grey;
+  }
+
+  .item5{
+    display: block;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4{
+    display: none;
+  }
+
+  body{
+    border: 10px blue solid;
+  }
+}
