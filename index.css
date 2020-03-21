@@ -686,9 +686,101 @@ section.motto h2{
     line-height: 116%;
     padding-bottom: 43px;
   }
+}
 
+/* hobby section */
+
+section.hobby{
+    font-size: 13px;
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: center;
+    /* line-height: 12vh; */
+}
+
+section.hobby h1{
+  height: 12vh;
+  line-height: 12vh;
+}
+
+section.hobby div.item{
+  height: 22vh;
+  color: white;
+  /* line-height: 22vh; */
+  text-shadow: black;
   
 }
+
+section.hobby div.item p{
+  font-size: 15px;
+    text-shadow: 4px 4px 4px black;
+    background-color: rgba(0,0,0,0.5);
+    padding: 8px;
+}
+
+section.hobby div.item:nth-of-type(1){
+  background-image: url(./images/hobby1.jpg);
+}
+
+section.hobby div.item:nth-of-type(2){
+  background-image: url(./images/hobby2.jpg);
+}
+
+section.hobby div.item:nth-of-type(3){
+  background-image: url(./images/hobby3.jpg);
+}
+
+section.hobby div.item:nth-of-type(4){
+  background-image: url(./images/hobby4.jpg);
+}
+
+section.hobby div.item{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media(orientation: landscape){
+  section.hobby div.item{
+    float: left;
+    width: 50%;
+    height: 50vh;
+  }
+
+  section.hobby h1{
+    margin: 13px;
+  }
+}
+
+@media ( min-width: 1024px){
+  section.hobby h1{
+    font-size: 40px;
+  }
+
+  section.hobby div.item p{
+    opacity: 0;
+    transition: 1s;
+    line-height: 50vh;
+    font-size: 35px;
+  }
+
+  section.hobby div.item:hover p{
+    line-height: 50vh;
+    font-size: 35px;
+    opacity: 1;
+  }
+
+  section.hobby div.item{
+    transition: 1s;
+    background-size: 123%;
+  }
+
+  section.hobby div.item:hover{
+    background-size: 140%;
+    /* transition: 1; */
+    overflow: hidden;
+  }
+}
+
 
 
 
