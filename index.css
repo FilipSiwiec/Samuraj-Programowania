@@ -781,6 +781,166 @@ section.hobby div.item{
   }
 }
 
+/* section kontakt */
+
+section.kontakt{
+  background-color: black;
+}
+
+section.kontakt h1{
+  text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: 'Saira Condensed';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+section.kontakt div.mail div input,
+section.kontakt div.mail div textarea{
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 20px;
+  height: 30px;
+  }
+
+  section.kontakt div.mail div input::placeholder,
+  section.kontakt div.mail div textarea::placeholder {
+    padding: 6%;
+    font-family: 'Saira Condensed';
+    color: black;
+    font-size: 12px;
+  }
+
+  section.kontakt div.mail div textarea{
+    height: 80px;
+  }
+
+  section.kontakt div.mail div textarea::placeholder{
+    padding-top: 5px;
+  }
+
+  section.kontakt div.mail div{
+    text-align: center;
+  }
+
+  section.kontakt div.mail button{
+    color: white;
+    border: 2px solid white;
+    background-color: black;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  section.kontakt div.socials div.social{
+    padding: 15px 50px;
+    color: white;
+    
+  }
+
+  section.kontakt div.socials div.social img{
+    height: 40px;
+    margin-right: 18px;
+    float: left;
+  }
+
+  section.kontakt div.socials div.social span{
+    line-height: 40px;
+  }
+
+  section.kontakt div.socials div.social:last-child{
+    padding-bottom: 30px;
+  }
+
+  @media ( min-width: 533px){
+
+    section.kontakt div.socials div.social{
+      width: 50%;
+      float: left;
+      padding: 10px 0px;
+    }
+
+    section.kontakt div.socials {
+      height: 80vh;
+    padding: 25px;
+    padding-left: 15%;
+    padding-right: 0px;
+    }
+
+    section.kontakt div.socials div.social spa{
+      font-size: 16px;
+    }
+  }
+
+  @media ( min-width: 1024px) {
+
+    section.kontakt h1{
+      font-size: 40px;
+      padding: 30px;
+    }
+
+    section.kontakt div.mail{
+      width: 50%;
+      float: left;
+    }
+
+    section.kontakt div.socials{
+      float: left;
+      width: 50%;
+      padding-top: 0;
+      padding-left: 50px;
+    }
+
+    section.kontakt {
+      height: 60vh;
+    }
+
+    section.kontakt div.mail div input,
+     section.kontakt div.mail div textarea,
+     section.kontakt div.mail button{
+      width: 250px;
+      margin-bottom: 25px;
+    height: 40px;
+    }
+
+    section.kontakt div.mail div{
+      text-align: right;
+      padding-right: 50px;
+    }
+
+    section.kontakt div.socials div.social{
+      float: none;
+    }
+  }
+
+  @media ( min-width: 533px) and (orientation: portrait){
+    section.kontakt div.socials{
+      height: 30vh;
+    }
+  }
+
+
+
+
+
+
+
+  /* footer */
+
+  footer{
+    height: 30px;
+    background-color: red;
+  }
+
+
+
+
+
+
+
+
 
 
 
