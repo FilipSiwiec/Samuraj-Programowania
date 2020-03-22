@@ -921,17 +921,35 @@ section.kontakt div.mail div textarea{
     }
   }
 
+  @media ( min-width: 860px) and (orientation: portrait){
+    section.kontakt div.socials{
+      height: 30vh;
+    }
+  }
 
+  @media ( min-width: 1024px) and (orientation: portrait){
+    section.kontakt{
+      height: 40vh;
+    }
+  }
 
-
-
-
+  @media ( min-width: 1024px) and (orientation: landscape){
+  section.kontakt div.socials{
+    height: 40vh;
+  }
+}
 
   /* footer */
 
   footer{
-    height: 30px;
-    background-color: red;
+    
+    background-color:  #29a9df;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    line-height: 40px;
+    color: black;
+    
   }
 
 
